@@ -1,0 +1,101 @@
+.card-wrapper {
+    margin: 5% 0;
+  }
+  
+.custom-circle-image {
+  width: 10vw; 
+  height: 10vw;
+}
+
+.custom-circle-image img {
+  object-fit: cover;
+}
+
+.card-title {
+  letter-spacing: 1.1px;
+}
+
+.card-text {
+  font-family: MerriweatherRegular;
+  font-size: 22px;
+  line-height: initial;
+}
+
+.dropzone {
+  border-style: dashed;
+  background: rgb(255, 255, 255);
+}
+
+.error {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  line-height: initial;
+  color: rgb(251, 0, 0);
+  text-align: center;
+}
+
+#classTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#classTable td, #classTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#classTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+body{
+  color: gray;
+  background-color: black;
+}
+.card{
+  background-color: black;
+  border: gray 3px;
+}
+
+body {
+  color: #ccc; /* Light gray text color */
+  background-color: #000; /* Black background color */
+}
+
+/* Style for navbar */
+.navbar {
+  background-image: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d); 
+  color: #fff; 
+  padding: 5px 0; 
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); 
+}
+
+.navbar-brand {
+  font-size: 32px; 
+}
+
+.bg-light{
+  background-color: #333331 !important;
+  
+}
+
+a{
+  font-family: Helvetica (sans-serif);
+  font-weight: bold;
+  font-size: larger;
+}
+.dropzone{
+  max-width: 200px;
+}
+
+#submitBtn{
+  background-image: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d); 
+
+}
